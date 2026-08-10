@@ -4,7 +4,7 @@ Ever wondered **how much of your life** went into Instagram? Upload your officia
 
 I built this because Instagram settings show no total usage metric anywhere. The export file you download from accounts.instagram.com has the data, this tool turns it into minutes, hours and days you can actually read.
 
-![Homepage](README%20pngs/homepage.png)
+![Homepage](sample_screenshots/homepage.png)
 
 ## ✨ Features
 
@@ -14,25 +14,25 @@ Every screenshot below was generated with the built in sample dataset, so you ca
 
 The headline dashboard: total estimated hours converted to days, counted sessions, active days with percentage, daily average, total activity entries and your full activity date range. Everything sits on one glanceable KPI row, and a separate membership card shows how many days have passed since you signed up.
 
-![Usage Statistics](README%20pngs/statiscits%20example.png)
+![Usage Statistics](sample_screenshots/statiscits%20example.png)
 
 ### 📅 Estimated Monthly Usage
 
 A color coded bar chart of your estimated usage per month, from your very first activity to today. Quiet months stay gray, heavy months turn yellow, orange and red. The chart area scrolls horizontally and supports mouse wheel zoom, with an average reference line so you can compare every month to your overall average.
 
-![Monthly Usage Chart](README%20pngs/monthly%20usage%20example.png)
+![Monthly Usage Chart](sample_screenshots/monthly%20usage%20example.png)
 
 ### 🕐 Hourly Distribution
 
 See when during the day you actually use Instagram, split into all 24 hours. Each bar is color coded to match that hour of a reference day photo. Filter the chart by last week, last month, last 3 months, last year or all time, and choose between hourly or 6 hour block grouping from the gear menu.
 
-![Hourly Distribution](README%20pngs/hourly%20usage%20example.png)
+![Hourly Distribution](sample_screenshots/hourly%20usage%20example.png)
 
 ### 📆 Yearly Detailed Breakdown
 
 A year by year table: total logged events, counted sessions, active days, estimated hours and the day equivalent per year. Perfect for spotting which year you lived on the platform and which year you barely opened the app.
 
-![Yearly Detailed Breakdown](README%20pngs/yearly%20detailed%20usage%20example.png)
+![Yearly Detailed Breakdown](sample_screenshots/yearly%20detailed%20usage%20example.png)
 
 ### 📱 Device Distribution
 
@@ -42,7 +42,7 @@ A doughnut chart of every device that ever logged into your account, with estima
 
 A table of where you pressed login, based on IP addresses in your export. City resolution is opt in: nothing is sent anywhere until you click the Resolve IPs to Cities button, and results are cached locally so reanalyzing the same ZIP makes zero repeat requests.
 
-![Device and Location](README%20pngs/device%20and%20location%20example.png)
+![Device and Location](sample_screenshots/device%20and%20location%20example.png)
 
 ### 🖥️ Live Terminal View
 
