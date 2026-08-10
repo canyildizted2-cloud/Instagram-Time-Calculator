@@ -1,0 +1,65 @@
+/* ============================================================================
+   styles.css
+   Pure-black theme overrides for the Instagram Usage Time Analyzer.
+   Loaded after Tailwind CSS CDN in index.html.
+   ============================================================================ */
+
+/* --------------------------------------------------------------------------
+   Pure Black Theme
+   Overrides Tailwind's default background and text color to a true black
+   background with slate-100 foreground for maximum contrast.
+   -------------------------------------------------------------------------- */
+body {
+    background-color: #000000;
+    color: #f1f5f9;
+}
+
+/* --------------------------------------------------------------------------
+   Custom Scrollbar
+   Thin, dark-styled scrollbars that blend with the pure-black theme.
+   WebKit-only (Chrome, Edge, Safari); Firefox falls back to its default.
+   -------------------------------------------------------------------------- */
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1e2433;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #334155;
+}
+
+/* --------------------------------------------------------------------------
+   Range Slider Accent Styling
+   Custom thumb for any <input type="range"> used in settings. The default
+   browser thumb does not match the dark palette, so we replace it with a
+   slate-colored square with a subtle glow.
+   -------------------------------------------------------------------------- */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    background: #94a3b8;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(148, 163, 184, 0.3);
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    background: #94a3b8;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 8px rgba(148, 163, 184, 0.3);
+}
