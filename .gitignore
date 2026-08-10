@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Instagram data exports (too large and private for the repo)
+instagram-*.zip
+instagram-*/
+
+# Backups and temp
+.backup/
+*.log
+*.tmp
