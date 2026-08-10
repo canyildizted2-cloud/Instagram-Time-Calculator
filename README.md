@@ -100,8 +100,6 @@ Instagram does not give you screen time, so the app reconstructs it from activit
 - Logins, likes, comments, story interactions, saved items, searches and sent messages all act as checkpoints on one timeline
 
 ## ⚠️ Limitations
-Known limits:
-
 - Only JSON format exports are supported, HTML exports are not
 - Time is an estimate: real screen on time can be lower or higher
 - First and last logins anchor the date range, entries outside those years are ignored
