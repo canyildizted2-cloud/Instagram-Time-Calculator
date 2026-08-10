@@ -67,7 +67,7 @@ python run_app.py
 # Option 2: just double click index.html, it even works offline
 ```
 
-## ⚡ Quick Start
+## ⚡ How To Start
 
 1️⃣ Download your data from Instagram:
 
@@ -99,12 +99,11 @@ Instagram does not give you screen time, so the app reconstructs it from activit
 - A known login and logout pair: the real session duration is used
 - Logins, likes, comments, story interactions, saved items, searches and sent messages all act as checkpoints on one timeline
 
-## ⚠️ Status and Known Limitations
-
-Actively developed, alpha stage. Known limits:
+## ⚠️ Limitations
+Known limits:
 
 - Only JSON format exports are supported, HTML exports are not
-- Time is an estimate: real screen on time can be 10 to 25 percent higher
+- Time is an estimate: real screen on time can be lower or higher
 - First and last logins anchor the date range, entries outside those years are ignored
 - Location resolution is IP based, not real GPS position
 
