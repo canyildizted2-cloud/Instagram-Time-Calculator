@@ -61,10 +61,10 @@ No export at hand? Hit the sample data button and the app runs instantly on a bu
 No build step, no dependencies to install. It is a static page. Requirement: a modern browser, Python 3 only if you want the auto opening local server.
 
 ```bash
-# Option 1: run the local server (opens your browser automatically)
-python run_app.py
+# Option 1: just double click index.html, it even works offline
 
-# Option 2: just double click index.html, it even works offline
+# Option 2: run the local server (opens your browser automatically)
+python run_app.py
 ```
 
 ## ⚡ How To Start
