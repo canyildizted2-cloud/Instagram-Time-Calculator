@@ -1,6 +1,9 @@
 # 📊 Instagram Usage Time Analyzer
 
-Ever wondered **how much of your life** went into Instagram? Upload your official Instagram data export (ZIP) and get a complete breakdown of your usage: estimated hours, sessions, active days, monthly trends, hourly habits, devices and login locations. Everything is computed **100 percent locally in your browser**. No server, no uploads, no tracking. 🔒
+Ever wondered how much of your life went into Instagram?
+
+Upload your official Instagram data export (ZIP) and get a complete breakdown of your usage: estimated hours, sessions, active days, monthly trends, hourly habits, devices and login locations. 
+Everything is computed **100 percent locally in your browser**. No server, no uploads, no tracking. 🔒
 
 I built this because Instagram settings show no total usage metric anywhere. The export file you download from accounts.instagram.com has the data, this tool turns it into minutes, hours and days you can actually read.
 
